@@ -11,7 +11,7 @@ import (
 )
 
 const (
-	diaPkg = "github.com/blushft/go-diagrams/diagram"
+	diaPkg = "github.com/jordigilh/go-diagrams/diagram"
 )
 
 type provider struct {

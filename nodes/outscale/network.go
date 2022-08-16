@@ -1,6 +1,6 @@
 package outscale
 
-import "github.com/blushft/go-diagrams/diagram"
+import "github.com/jordigilh/go-diagrams/diagram"
 
 type networkContainer struct {
 	path string

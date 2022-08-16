@@ -1,6 +1,6 @@
 package firebase
 
-import "github.com/blushft/go-diagrams/diagram"
+import "github.com/jordigilh/go-diagrams/diagram"
 
 type baseContainer struct {
 	path string

@@ -1,6 +1,6 @@
 package generic
 
-import "github.com/blushft/go-diagrams/diagram"
+import "github.com/jordigilh/go-diagrams/diagram"
 
 type computeContainer struct {
 	path string
