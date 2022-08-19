@@ -26,3 +26,8 @@ func (u *unixNode) Buffer(opts ...diagram.NodeOption) *diagram.Node {
 	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("../assets/linux/buffer.png")}, u.opts, opts)
 	return diagram.NewNode(nopts...)
 }
+
+func (u *unixNode) Flotta(opts ...diagram.NodeOption) *diagram.Node {
+	nopts := diagram.MergeOptionSets(diagram.OptionSet{diagram.Icon("../assets/linux/flotta.png")}, u.opts, opts)
+	return diagram.NewNode(nopts...)
+}
